@@ -1,0 +1,8 @@
+# MAL Show ID Crawler
+A simple utility to allow one to add Chinese cartoons to their MyAnimeList list without having to deal with the red tape on the website.  One can also search titles to find what they're looking for far faster than any website since it keeps a local database.  It also comes with the ability to crawl the MAL database and add new shows to its own.
+
+The show presentation is fairly sequential based on the ID assigned to the show by MAL.  Note that it is not completely sequential because the MAL database has large jumps in IDs.  To navigate forward without adding the current show to your watched list, press "No".  Press "Yes" to add it to your list and continue.  An internet connection and login credentials are required for this, otherwise the list tied to your account cannot be updated.  To navigate back, press "Back".  You can also search by ID or title.  Case sensitivity in searching is also optional.
+
+If you choose to save your credentials, your password will be salted and encrypted before being saved.
+
+Crawling the database is currently a fairly lengthy process depending on your internet connection speed.  The maximum ID is the largest ID the crawler will attempt to query (above your current database's largest ID).  Alternatively, the crawler will also stop if it encounters the specified number of failures.  This is a stopgap measure to prevent a large amount of wasteful queries after the end of MAL's database.  Please note that given the previously specified gaps in MAL's IDs, a good indicator for the true end of the MAL database is 1000 consecutive failures.

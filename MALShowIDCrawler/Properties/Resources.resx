@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnimeURL" xml:space="preserve">
+    <value>https://myanimelist.net/anime/{0}/</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Crawl" xml:space="preserve">
+    <value>Crawl</value>
+  </data>
+  <data name="CrawlerMaxIDTooSmall" xml:space="preserve">
+    <value>The crawler has detected your local database file already has entries up through your specified maximum ID. Would you like to overwrite these?</value>
+  </data>
+  <data name="CrawlOptions" xml:space="preserve">
+    <value>Crawl Options</value>
+  </data>
+  <data name="DataBaseFileName" xml:space="preserve">
+    <value>dbinfo</value>
+  </data>
+  <data name="Fails" xml:space="preserve">
+    <value>Consecutive Failures.</value>
+  </data>
+  <data name="FailsTooltip" xml:space="preserve">
+    <value>After this many consecutive connection failures, regardless of the ID, the crawl will stop. This should mean you have reached the end of database list.</value>
+  </data>
+  <data name="FileAccessed" xml:space="preserve">
+    <value>Last Crawl: {0}</value>
+  </data>
+  <data name="HaveYouSeen" xml:space="preserve">
+    <value>Have you seen:</value>
+  </data>
+  <data name="IDStatus" xml:space="preserve">
+    <value>ID: {0}  Status: {1}</value>
+  </data>
+  <data name="IDStatusTitle" xml:space="preserve">
+    <value>ID: {0}  Status: {1}  Title: {2}</value>
+  </data>
+  <data name="IDTitle" xml:space="preserve">
+    <value>ID: {0}  Title: {1}</value>
+  </data>
+  <data name="MaxID" xml:space="preserve">
+    <value>Maximum ID:</value>
+  </data>
+  <data name="MaxIDTooltip" xml:space="preserve">
+    <value>The maximum MAL anime ID to query to.  The ID's are generally sequential and end at roughly 33,000.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RememberInfo" xml:space="preserve">
+    <value>Remember Credentials</value>
+  </data>
+  <data name="StopAfter" xml:space="preserve">
+    <value>Stop crawl after</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="MalID" xml:space="preserve">
+    <value>Mal ID: {0}</value>
+  </data>
+  <data name="SettingsFileName" xml:space="preserve">
+    <value>usersettings</value>
+  </data>
+  <data name="UserOptions" xml:space="preserve">
+    <value>User Options</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Go to ID: </value>
+  </data>
+  <data name="CrawlInfo" xml:space="preserve">
+    <value>Begin crawling through the MyAnimeList database.  Depending on the maximum ID, the process could take hours due to MyAnimeList server reponse speed and internet connection speed.</value>
+  </data>
+  <data name="GoToIdToolTip" xml:space="preserve">
+    <value>Jumps to the specified ID or the nearest one if it does not exist.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search title:</value>
+  </data>
+  <data name="SearchTitleTooltip" xml:space="preserve">
+    <value>Performs a search and jumps to the first listing that contains the search text, starting from the beginning of the list.</value>
+  </data>
+  <data name="AddAnimeURL" xml:space="preserve">
+    <value>https://myanimelist.net/api/animelist/add/{0}.xml</value>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>Case Sensitive Search</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NextTitleTooltip" xml:space="preserve">
+    <value>Performs a search and jumps to the first listing that contains the search text, starting from the current ID.</value>
+  </data>
+</root>

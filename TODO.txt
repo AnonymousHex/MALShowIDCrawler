@@ -1,0 +1,4 @@
+-give option to skip over a main series w/out having to go through each sub-show
+-maybe other options for adding the show to a list?
+-break up crawl code into multiple threads
+-maybe a way to see what shows youve seen
